@@ -5,7 +5,7 @@ from .settings import TYPE_ERROR_MESSAGE
 
 def _is_int(num: int) -> bool:
     """Check whether the number is integer."""
-    return isinstance(num, int):
+    return isinstance(num, int)
 
 
 def are_int(num1: int, num2: int) -> bool:
