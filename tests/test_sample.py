@@ -22,7 +22,7 @@ def test_sub_type() -> None:
     """Check whether the 'sub' function runs properly."""
     # Perform type check
     with pytest.raises(TypeError):
-        sub(2.0, 1) == 1
+        sub(2.0, 1)
 
 
 def test_sub() -> None:
